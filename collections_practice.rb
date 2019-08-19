@@ -33,5 +33,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-   array.map { |word| "#{word}s" }.join(", ")
+   array.split.map { |word| "#{word}s" }.join(", ")
 end

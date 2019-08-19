@@ -20,7 +20,6 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-<<<<<<< HEAD
   array.each.index.step(3) { |n| str[n] = str[n] }
 
 end
@@ -36,8 +35,6 @@ end
 def add_s(array)
   array.each_with_index.collect{|element, index| }
 end
-=======
   array.each.index.step(3) { |n| str[n] = str[n].upcase }
 
 end
->>>>>>> ff197c6e28708d56054f6049bd476e3434cc0d2f

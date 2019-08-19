@@ -33,5 +33,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-   array.each{|word| word << "\s"}
+   array..map { |word| "#{word}!" }.join(" ")
 end

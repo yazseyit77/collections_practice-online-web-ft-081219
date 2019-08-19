@@ -20,7 +20,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.each.index.step(3) { |n| str[n] = str[n] }
+  #array.each.index.step(3) { |n| str[n] = str[n] }
 
 end
 
@@ -33,5 +33,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each_with_index.collect{|element, index| }
+   array.map { |word| "#{word}s" }.join(", ")
 end
